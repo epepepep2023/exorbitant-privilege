@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exorbitant Privilege</title>
+    <!-- Tailwind CDN (build‑time version not required for quick prototype) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts → Inter for clean finance vibe -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-slate-50 text-slate-900">
+    <!-- Navbar -->
+    <header class="sticky top-0 z-50 bg-white/80 backdrop-blur shadow-md">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+        <a href="#" class="text-xl font-bold tracking-wide text-blue-700">Exorbitant&nbsp;Privilege</a>
+        <nav class="hidden md:flex space-x-6 text-sm font-medium">
+          <a href="#dashboard" class="hover:text-blue-700">Dashboard</a>
+          <a href="#posts" class="hover:text-blue-700">Posts</a>
+          <a href="#about" class="hover:text-blue-700">About</a>
+        </nav>
+        <a
+          href="https://yourname.substack.com/subscribe"
+          class="inline-block rounded-2xl bg-blue-700 px-4 py-2 text-sm font-semibold text-white shadow hover:shadow-lg transition"
+        >Subscribe</a>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="relative bg-gradient-to-r from-blue-700 to-indigo-600 text-white py-24">
+      <div class="mx-auto max-w-4xl px-4 text-center">
+        <h1 class="text-4xl md:text-5xl font-extrabold mb-4">Macro &amp; Markets for a Reserve‑Currency World</h1>
+        <p class="text-lg md:text-xl mb-8">
+          Weekly insights, charts and my proprietary Exorbitant Privilege Index—straight to your inbox.
+        </p>
+        <a
+          href="https://yourname.substack.com/subscribe"
+          class="rounded-2xl bg-white/90 px-6 py-3 text-blue-800 font-semibold shadow hover:bg-white transition"
+        >Join&nbsp;Free&nbsp;→</a>
+      </div>
+    </section>
+
+    <!-- Dashboard / Chart Section -->
+    <section id="dashboard" class="py-16 bg-white">
+      <div class="mx-auto max-w-5xl px-4 text-center">
+        <h2 class="text-2xl font-bold mb-6">Exorbitant&nbsp;Privilege&nbsp;Index</h2>
+        <p class="mb-4 text-sm text-slate-600">Auto‑updated daily at 18:00&nbsp;ET</p>
+        <!-- Replace the src below with your Datawrapper/Plotly iframe link -->
+        <div class="aspect-w-16 aspect-h-9 rounded-2xl overflow-hidden shadow-lg">
+          <iframe
+            src="https://datawrapper.dwcdn.net/placeholder" 
+            title="Index Chart"
+            frameborder="0"
+            scrolling="no"
+            class="w-full h-full"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest Posts -->
+    <section id="posts" class="py-16 bg-slate-50">
+      <div class="mx-auto max-w-6xl px-4">
+        <h2 class="text-2xl font-bold mb-8 text-center">Latest&nbsp;Notes</h2>
+        <!-- Replace each card link with real Substack post URLs -->
+        <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          <a href="#" class="group block rounded-2xl bg-white shadow hover:shadow-lg transition p-6">
+            <h3 class="text-lg font-semibold mb-2 group-hover:text-blue-700 transition">Fed Balance‑Sheet Shrinkage: The Hidden Dollar Short</h3>
+            <p class="text-sm text-slate-600">Preview of this week’s macro note on dollar liquidity and cross‑border funding stress.</p>
+          </a>
+          <a href="#" class="group block rounded-2xl bg-white shadow hover:shadow-lg transition p-6">
+            <h3 class="text-lg font-semibold mb-2 group-hover:text-blue-700 transition">JPY Intervention Tracker – October Update</h3>
+            <p class="text-sm text-slate-600">My real‑time chart of MOF interventions and global risk appetite.</p>
+          </a>
+          <a href="#" class="group block rounded-2xl bg-white shadow hover:shadow-lg transition p-6">
+            <h3 class="text-lg font-semibold mb-2 group-hover:text-blue-700 transition">ECB’s QT Dilemma: A Case of Euro Privilege?</h3>
+            <p class="text-sm text-slate-600">Comparing EUR and USD safe‑asset demand ahead of policy divergence.</p>
+          </a>
+        </div>
+        <div class="text-center mt-10">
+          <a href="https://yourname.substack.com/archive" class="text-blue-700 font-medium">Browse the full archive →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About / Footer -->
+    <section id="about" class="py-16 bg-white">
+      <div class="mx-auto max-w-4xl px-4 text-center">
+        <h2 class="text-2xl font-bold mb-6">About the Author</h2>
+        <p class="text-slate-700 mb-4">
+          I’m Lewis Kang, a PhD researcher in international macroeconomics. I built the Exorbitant Privilege Index to quantify the
+          dollar’s real‑time advantage as the world’s reserve currency.
+        </p>
+        <p class="text-slate-600 text-sm mb-6">Nothing here is individualized investment advice. Disclosures <a href="#" class="underline">here</a>.</p>
+        <a href="https://twitter.com/yourhandle" class="inline-flex items-center gap-2 text-blue-700 font-medium hover:underline">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M8 12l6-6m0 0l6 6m-6-6v12" /></svg>
+          Follow on Twitter
+        </a>
+      </div>
+    </section>
+
+    <footer class="bg-slate-900 text-slate-200 py-8">
+      <div class="mx-auto max-w-7xl px-4 flex flex-col md:flex-row justify-between items-center">
+        <p class="text-sm">© <span id="year"></span> Exorbitant Privilege. All rights reserved.</p>
+        <nav class="flex gap-4 text-sm mt-4 md:mt-0">
+          <a href="#about" class="hover:text-white">About</a>
+          <a href="https://yourname.substack.com/archive" class="hover:text-white">Archive</a>
+          <a href="#" class="hover:text-white">Disclosures</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
